@@ -1,0 +1,86 @@
+#cont{
+    display:flex;
+ }
+ #grille{
+    width:50%;
+ }
+ #ctirage{
+    display:inline-block;
+ }
+ #tirage{
+    height:220px;
+    width:50%;
+    text-align:right;
+ }
+ #bon{
+    font:72pt monospace;
+    margin:30px auto;
+    text-align:center;
+    visibility:hidden;
+    background-color:#48C;
+    color:#FFF;
+    width:120px;
+    height:120px;
+    border-radius:100px;
+    line-height:120px;
+ }
+ .bouton{
+    width:26px;
+    height:26px;
+    text-align:center;
+    font:11pt monospace;
+    border:solid 1px #48C;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin:3px;
+    cursor:pointer;
+    transition:all 0.3s ease;
+ }
+ .bouton:hover{
+    background-color:#48C;
+    color:#FFF;
+    transform:scale(1.4);
+ }
+ .zbouton{
+    width:26px;
+    height:26px;
+    text-align:center;
+    font:11pt monospace;
+    border:solid 1px #48C;
+    background-color:#F8F8F8;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin:3px;
+    color:#48C;
+ }
+ .nbouton{
+    width:26px;
+    height:26px;
+    text-align:center;
+    font:11pt monospace;
+    border:solid 1px #48C;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin:3px;
+    color:#000;
+ }
+ button{
+    border:none;
+    cursor:pointer;
+    display:block;
+    width:300px;
+    background-color:#48C;
+    padding:10px;
+    font-size:13pt;
+    color:#FFF;
+    text-decoration:none;
+    font-family:arial,sans-serif;
+    margin:10px auto;
+    margin-bottom:10px;
+ }
+ button:hover{
+    opacity:0.8;
+ }
